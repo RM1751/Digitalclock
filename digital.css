@@ -1,0 +1,32 @@
+body{height:100%;}
+#bg{position: absolute;top: 0;right: 0;bottom: 0;left: 0;width: 100%;height: 100%;
+    background-image: linear-gradient(to right, rgb(39, 56, 33),rgb(58, 27, 55));
+    z-index: 1;
+}
+.cen{display: flex;justify-content: center;z-index:2;
+}
+#clock {
+    position: absolute;
+    font-size: 100px;
+    width: 850px;
+    margin: 200px;
+    text-align: center;
+    color:rgb(221, 239, 222);
+    font-family: "Orbitron","Helvetica Neue","sans-serif";
+    border: 5px solid rgb(19, 231, 231);
+    border-radius: 20px;
+    z-index:2;
+}
+    #clock:hover {
+        position: absolute;
+        font-size: 100px;
+        width: 850px;
+        margin: 200px;
+        text-align: center;
+        color: rgb(214, 14, 14);
+        background-image: linear-gradient(to right, rgb(182, 151,196), rgb(200, 191, 197));
+        font-family: "Orbitron","Helvetica Neue","sans-serif";
+        border: 5px solid rgb(207, 14, 62);
+        border-radius: 20px;
+        z-index:2;
+    }
